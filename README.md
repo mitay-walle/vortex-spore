@@ -13,7 +13,7 @@ The source of both extensions and the build script live in
 ## Features
 - Game detection: Steam (Spore 17390), GOG, EA App / Origin / disc (registry `Electronic Arts\SPORE`)
 - "Mod Manager Download" for mods from [nexusmods.com/spore](https://www.nexusmods.com/spore)
-- Archives with `.package` files are deployed to `Data` (`Data` / `DataEP1` folders inside an archive are respected)
+- Mods are deployed to the game folder: `.package` files go to `Data` (`Data` / `DataEP1` folders inside an archive are respected)
 - `.sporemod` files (loose or inside an archive) are installed from their `ModInfo.xml` like the Spore ModAPI Easy Installer does:
   prerequisites, optional components and component groups (asked in a dialog, remembered for reinstall), compat files
 - Files meant for Galactic Adventures are installed to `DataEP1` with a warning, ModAPI (.dll) mods are refused
