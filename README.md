@@ -7,7 +7,7 @@ For Spore Galactic Adventures and Spore ModAPI (.dll) mods use the
 
 This repository holds the packaged extension (the contents of the archive uploaded to Nexus).
 The source of both extensions and the build script live in
-[vortex-game-extension-spore](https://github.com/mitay-walle/vortex-game-extension-spore):
+[vortex-spore-galactic-adventures](https://github.com/mitay-walle/vortex-spore-galactic-adventures):
 `index.js` is shared, `game.js` describes the game.
 
 ## Features
