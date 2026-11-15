@@ -339,7 +339,7 @@ async function downloadSporeModLoader(api) {
     try {
         const release = await getJson(SML_RELEASE_API);
         // the release also contains a macOS build
-        const asset = (release.assets || []).find(iter => /^SporeModLoader-[0-9a-f]+\.zip$/i.test(iter.name));
+        const asset = (release.assets || []).find(iter => /^SporeModLoader-(?:windows-)?[0-9a-f]+\.zip$/i.test(iter.name));
         if (asset === undefined) {
             throw new Error('SporeModLoader release has no Windows archive');
         }
